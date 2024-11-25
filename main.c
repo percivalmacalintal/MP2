@@ -5,12 +5,6 @@
 
 extern void imgCvtGrayFloatToInt(int n, float* x, uint8_t* y);
 
-void incrfloat(long long int n, float* x) {
-	int i;
-	for (i = 0; i < n; i++)
-		x[i]++;
-}
-
 int main() {
 	unsigned int row, col;
 	scanf_s("%u", &row);
